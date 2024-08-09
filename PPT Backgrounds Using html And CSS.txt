@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <style>
+    body {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container {
+        width: 380px;
+    }
+    h1{
+        text-align: center;
+    }
+    #example1 {
+        border: 2px solid black;
+        padding: 35px;
+        background: url(https://www.w3schools.com/css/img_flwr.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 10px;
+    }
+    #example2 {
+        background-image: url(https://www.w3schools.com/css/img_flwr.gif), url(https://www.w3schools.com/css/paper.gif);
+        background-position: right bottom, left top;
+        background-repeat: no-repeat, repeat;
+        padding: 15px;
+        margin: 10px;
+    }
+    #example3 {
+        border: 1px solid black;
+        background: url(https://www.w3schools.com/css/img_flwr.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 15px;
+        margin: 10px;
+    }
+    
+    #example4 {
+        border: 2px dotted black;
+        padding: 35px;
+        background: yellow;
+        background-clip: padding-box;
+        margin: 10px;
+        
+        
+        
+    </style>
+</head>
+
+<body>
+   <div class="container">
+       <h1>CSS Backgrounds</h1>
+       
+       <div id="example1">
+           <h2>Backgrounds Origin</h2>
+           <p> Your present circumstances don’t determine where you can go; they merely determine where you start.</p>
+           <p> You can never cross the ocean until you have the courage to lose sight of the shore.</p>
+           <p> The work you do when you procrastinate is probably the work you should be doing for the rest of your life.</p>
+       </div>
+       
+       <div id="example2">
+           <h2>Multiple Backgrounds</h2>
+           <p> One way to keep momentum going is to have constantly greater goals.</p>
+           <p> The only person you should try to be better than, is the person you were yesterday.</p>
+           <p> Much of the stress that people feel doesn’t come from having too much to do. It comes from not finishing what they’ve started.</p>
+       </div>
+       <div id="example3">
+           <h2>CSS Background Size</h2>
+           <p> The difference between a stumbling block and a stepping stone is how high you raise your foot.</p>
+           <p> Study while others are sleeping; work while others are loafing; prepare while others are playing; and dream while others are wishing.</p>
+           <p> If the decisions you make about where you invest your blood, sweat, and tears are not consistent with the person you aspire to be, you’ll never become that person.</p>
+       </div>
+       <div id="example4">
+           <h2>CSS Background-clip</h2>
+           <p> The difference between the impossible and the possible lies in a person’s determination.</p>
+           <p> Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.</p>
+           <p> You can never cross the ocean until you have the courage to lose sight of the shore.</p>
+       </div>
+    </div>
+</body>
+</html>
